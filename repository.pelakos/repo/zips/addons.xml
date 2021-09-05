@@ -2,10 +2,10 @@
 <addons>
 <addon id="repository.pelakos" name="Pelakos Repo" version="1.0" provider-name="Pelakos">
     <extension point="xbmc.addon.repository" name="Example Repository">
-        <dir minversion="18.0.0" maxversion="18.9.9">
-            <info compressed="false">https://raw.githubusercontent.com/pelakos/linux/master/repository.pelakos/leia/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/pelakos/linux/master/repository.pelakos/leia/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/pelakos/linux/master/repository.pelakos/leia/zips/</datadir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/pelakos/linux/master/repository.pelakos/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/pelakos/linux/master/repository.pelakos/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/pelakos/linux/master/repository.pelakos/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
